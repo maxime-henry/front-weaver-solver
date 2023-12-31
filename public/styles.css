@@ -1,0 +1,40 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#solutions {
+    margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weaver Wordle Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Weaver Wordle Solver</h1>
+    <form id="wordleForm">
+        <label for="start">Start:</label>
+        <input type="text" id="start" name="start" required>
+
+        <label for="end">End :</label>
+        <input type="text" id="end" name="end" required>
+    </br>
+        <button type="button" onclick="solveWordle()">Solve</button>
+    </form>
+
+    <div id="joke"></div>
+    <div id="solutions"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
